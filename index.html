@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>My form</title>
+</head>
+<body>
+   <h1>Gainz Gang Survey Form</h1>
+   <p>Thank you for taking the time to help us improve</p>
+   <form>
+      <label>Name</label>
+      <br>
+      <input type="text" name="name" id="name" placeholder="Enter your name" class="wide">
+      <label for="email">Email</label>
+      <br>
+      <input type="Email" name="email" id="email" placeholder="Enter Email" class="wide">
+      <br>
+      <label for="age">Age(Optional)</label>
+      <br>
+      <input type="number" name="age" id="age" placeholder="Age" class="wide">
+      <br>
+      <label for="cars">What is your favorite workout day?</label>
+      <br>
+      <select name="workout" id="workout" placeholder="Select an option">
+         <option value="select">Select an option</option>
+         <option value="chest">Chest day</option>
+         <option value="legs">Leg day</option>
+         <option value="back">Back day</option>
+         <option value="arms">Arms day</option>
+      </select>
+      <br>
+      <label for="favorite">What workout day can you improve on?(Select all that apply)</label>
+      <br>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> Chest day</label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2"> Leg day</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3">Back day</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3"> Arms day</label><br>
+
+      <label for="commets">Any comments or suggestions?</label>
+
+      <textarea id="w3review" name="w3review" rows="4" cols="50">
+      Enter Your Comment here 
+      </textarea>
+      <br>
+      <button>Submit</button>
+   </form>
+   
+</body>
+</html>

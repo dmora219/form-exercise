@@ -1,0 +1,35 @@
+body{
+   background-image: url("/form-exercise/images/background.jpg");
+   background-size: cover;
+   text-align: center;
+   font-family: monospace;
+   line-height: 30px;
+}
+form{
+   background-color: RGBA(27, 38, 59, 0.5);
+   text-align: left;
+   color: white;
+   margin: 0 auto;
+   width: 30%;
+   padding: 20px;
+}
+
+input{
+   /* width: 90%; */
+   padding: 5px;
+}
+.wide{
+   width: 90%;
+}
+#workout{
+   width: 90%;
+}
+
+button{
+   width: 90%;
+   padding: 3px 5px;
+   background: none;
+   background-color: RGBA(27, 38, 59,1);
+   color: white;
+   border: 2px solid gray;
+}
